@@ -63,15 +63,19 @@
             console.log(phonelen);
             if (name === '') {
                 alert('이름을 입력하세요.');
+                $('#input-q1').focus();
             }
             else if (num === 'Choose...') {
                 alert('수량을 입력하세요.')
+                $('#input-q2').focus();
             }
             else if (address === '') {
                 alert('주소를 입력하세요');
+                $('#input-q3').focus();
             }
             else if (phonenum === '') {
                 alert('전화번호를 입력하세요');
+                $('#input-q4').focus();
             }
             else if ((bar1 === 3) && (bar2 === 8) && (phonelen === 13)) {
                 alert('주문완료!')
